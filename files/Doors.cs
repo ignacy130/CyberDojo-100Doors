@@ -9,3 +9,12 @@ public class Doors
         throw new NotImplementedException();   
     }
 }
+
+public class DoorsRow
+{
+    
+    public void MakePass()
+    {
+        throw new NotImplementedException();   
+    }
+}
