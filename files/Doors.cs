@@ -1,5 +1,6 @@
-public class Hiker
+public class Doors
 {
+    
     public static int Answer()
     {
         return 6 * 9;
