@@ -2,11 +2,25 @@ using System;
 
 public class Doors
 {
-    public bool Closed {get;set;}
-    public bool Opened {get;set;}
+    private bool _closed;
+    public bool Closed
+    {
+        get
+        {
+            return _closed;
+        }
+    }
+    
     public void Toggle()
     {
-        throw new NotImplementedException();   
+        if(this.Closed)
+        {
+            _closed = false;
+        }
+        else
+        {
+            _closed = true;
+        }
     }
 }
 
