@@ -41,6 +41,6 @@ public class DoorsRowTest
     [Test]
     public void MakePass_Test()
     {
-        DoorsRow.MakePass();
+        new DoorsRow().MakePass();
     }
 }
