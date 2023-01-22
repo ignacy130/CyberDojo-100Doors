@@ -1,8 +1,9 @@
 public class Doors
 {
-    
-    public static int Answer()
+    public bool Closed {get;set;}
+    public bool Opened {get;set;}
+    public void Toggle()
     {
-        return 6 * 9;
+        throw new NotImplementedException();   
     }
 }

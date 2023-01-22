@@ -38,8 +38,6 @@ public class DoorsTest
 [TestFixture]
 public class DoorsRowTest
 {
-    public void
-    
     [Test]
     public void MakePass_Test()
     {
