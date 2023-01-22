@@ -10,24 +10,9 @@ Errors, Failures and Warnings
 
 1) Error : DoorsRowTest.MakePass_Test
 System.NotImplementedException : The method or operation is not implemented.
-  at DoorsRowTest.MakePass_Test () [0x00005] in <503ffa0fe4d048938fbaff9c90100a6f>:0 
+  at DoorsRowTest.MakePass_Test () [0x00005] in <b4a4ac5c43c9445bac1b4b6b21c49fb2>:0 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
-
-2) Failed : DoorsTest.GivenClosedDoorsOpenThem
-  Expected: False
-  But was:  True
-  at DoorsTest.GivenClosedDoorsOpenThem () [0x00000] in <503ffa0fe4d048938fbaff9c90100a6f>:0 
-
-3) Failed : DoorsTest.GivenFreshDoorsCheckAreClosed
-  Expected: True
-  But was:  False
-  at DoorsTest.GivenFreshDoorsCheckAreClosed () [0x00000] in <503ffa0fe4d048938fbaff9c90100a6f>:0 
-
-4) Failed : DoorsTest.GivenOpenDoorsCloseThem
-  Expected: True
-  But was:  False
-  at DoorsTest.GivenOpenDoorsCloseThem () [0x00000] in <503ffa0fe4d048938fbaff9c90100a6f>:0 
 
 Run Settings
     DisposeRunners: True
@@ -39,10 +24,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 4, Passed: 0, Failed: 4, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 3, Errors: 1, Invalid: 0
-  Start time: 2023-01-22 12:13:14Z
-    End time: 2023-01-22 12:13:15Z
-    Duration: 0.701 seconds
+  Test Count: 4, Passed: 3, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 0, Errors: 1, Invalid: 0
+  Start time: 2023-01-22 12:13:49Z
+    End time: 2023-01-22 12:13:49Z
+    Duration: 0.663 seconds
 
 Results (nunit3) saved as TestResult.xml

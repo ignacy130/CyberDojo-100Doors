@@ -2,7 +2,7 @@ using System;
 
 public class Doors
 {
-    private bool _closed;
+    private bool _closed = true;
     public bool Closed
     {
         get
