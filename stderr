@@ -1,2 +1,0 @@
-DoorsTest.cs(25,27): error CS1061: Type `Doors' does not contain a definition for `Opened' and no extension method `Opened' of type `Doors' could be found. Are you missing an assembly reference?
-Doors.cs(3,14): (Location of the symbol related to previous error)

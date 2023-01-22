@@ -22,7 +22,7 @@ public class DoorsTest
     {
         var doors = new Doors();
         doors.Toggle();
-        Assert.True(doors.Opened);
+        Assert.False(doors.Closed);
     }
     
     [Test]
