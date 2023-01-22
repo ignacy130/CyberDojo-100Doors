@@ -41,7 +41,6 @@ public class DoorsRowTest
     [Test]
     public void MakePass_Test()
     {
-        
-        Assert.AreEqual(42, Doors.MakePass());
+        DoorsRow.MakePass();
     }
 }

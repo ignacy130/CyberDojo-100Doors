@@ -1,2 +1,1 @@
-DoorsTest.cs(45,35): error CS0117: `Doors' does not contain a definition for `MakePass'
-Doors.cs(3,14): (Location of the symbol related to previous error)
+DoorsTest.cs(44,18): error CS0120: An object reference is required to access non-static member `DoorsRow.MakePass()'
