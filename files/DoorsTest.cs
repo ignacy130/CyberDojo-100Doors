@@ -18,7 +18,7 @@ public class DoorsTest
     }
     
     [Test]
-    public void GivenClosedDoorsOpenThem(bool isOpen)
+    public void GivenClosedDoorsOpenThem()
     {
         var doors = new Doors();
         doors.Toggle();
@@ -26,7 +26,7 @@ public class DoorsTest
     }
     
     [Test]
-    public void GivenOpenDoorsCloseThem(bool isOpen)
+    public void GivenOpenDoorsCloseThem()
     {
         var doors = new Doors();
         doors.Toggle();
