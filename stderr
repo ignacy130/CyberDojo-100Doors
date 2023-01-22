@@ -1,3 +1,2 @@
-Doors.cs(7,19): error CS0246: The type or namespace name `NotImplementedException' could not be found. Are you missing `System' using directive?
 DoorsTest.cs(45,35): error CS0117: `Doors' does not contain a definition for `MakePass'
-Doors.cs(1,14): (Location of the symbol related to previous error)
+Doors.cs(3,14): (Location of the symbol related to previous error)
