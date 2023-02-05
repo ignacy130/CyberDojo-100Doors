@@ -53,12 +53,29 @@ public class DoorsRowTest
     public void VisitEverySecondDoor()
     {
         var row = new DoorsRow();
-        row.MakePass(2);
-        for(var d=1;d<row.Doors.Length;d+=2)
+        var n = 2;
+        row.MakePass(n);
+        for(var d=1;d<row.Doors.Length;d+=n)
         {
             Assert.True(!row.Doors[d].Closed);
         }
-        for(var d=0;d<row.Doors.Length;d+=2)
+        for(var d=0;d<row.Doors.Length;d+=n)
+        {
+            Assert.True(row.Doors[d].Closed);
+        }
+    }
+    
+    [Test]
+    public void VisitEveryHundrethDoor()
+    {
+        var row = new DoorsRow();
+        var n = 100;
+        row.MakePass(n);
+        for(var d=1;d<row.Doors.Length;d+=n)
+        {
+            Assert.True(!row.Doors[d].Closed);
+        }
+        for(var d=0;d<row.Doors.Length;d+=n)
         {
             Assert.True(row.Doors[d].Closed);
         }

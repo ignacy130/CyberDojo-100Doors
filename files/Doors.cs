@@ -49,5 +49,8 @@ public class DoorsRow
         } 
     }
     
-    //public void Solve
+    public void Solve()
+    {
+        
+    }
 }
