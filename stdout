@@ -30,8 +30,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 6, Passed: 4, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 2, Errors: 0, Invalid: 0
-  Start time: 2023-02-05 15:30:11Z
-    End time: 2023-02-05 15:30:12Z
-    Duration: 0.667 seconds
+  Start time: 2023-02-05 15:32:32Z
+    End time: 2023-02-05 15:32:33Z
+    Duration: 0.643 seconds
 
 Results (nunit3) saved as TestResult.xml
