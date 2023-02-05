@@ -40,4 +40,6 @@ public class DoorsRow
             _doors[i].Toggle();
         } 
     }
+    
+    public void Solve
 }

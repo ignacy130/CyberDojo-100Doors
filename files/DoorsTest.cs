@@ -39,8 +39,10 @@ public class DoorsTest
 public class DoorsRowTest
 {
     [Test]
-    public void MakePass_Test()
+    public void VisitEveryDoor()
     {
-        new DoorsRow().MakePass();
+        var row = new DoorsRow();
+        row.MakePass();
+        Assert.All(doors.Open);
     }
 }
