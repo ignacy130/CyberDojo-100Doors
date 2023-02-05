@@ -90,13 +90,11 @@ public class DoorsRowTest
         var row = new DoorsRow();
         var n = 100;
         row.MakePass(n);
-        for(var d=1;d<row.Doors.Length;d+=n)
-        {
-            Assert.True(!row.Doors[d].Closed);
-        }
-        for(var d=0;d<row.Doors.Length;d+=n)
-        {
-            Assert.True(row.Doors[d].Closed);
-        }
+        
+        Assert.True(row.Doors[0].Closed);
+        Assert.True(row.Doors[1].Closed);
+        Assert.True(row.Doors[98].Closed);
+        
+        Assert.True(!row.Doors[99].Closed);
     }
 }
