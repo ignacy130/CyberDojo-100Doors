@@ -45,7 +45,7 @@ public class DoorsRowTest
         row.MakePass();
         foreach(var d in row.Doors)
         {
-            Assert.True(d.Open);
+            Assert.True(!d.Closed);
         }
     }
 }
