@@ -28,6 +28,14 @@ public class DoorsRow
 {
     private Doors[] _doors = new Doors[100];
     
+    public Doors[] Doors
+    {
+        get
+        {
+            return _doors;
+        }
+    }
+    
     public DoorsRow(){
         for(var i=0;i<_doors.Length;i++){
             _doors[i] = new Doors();

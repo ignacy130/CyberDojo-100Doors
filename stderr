@@ -1,2 +1,2 @@
-DoorsTest.cs(46,16): error CS0117: `NUnit.Framework.Assert' does not contain a definition for `All'
-/nunit/lib/net45/nunit.framework.dll (Location of the symbol related to previous error)
+DoorsTest.cs(48,27): error CS1061: Type `Doors' does not contain a definition for `Open' and no extension method `Open' of type `Doors' could be found. Are you missing an assembly reference?
+Doors.cs(3,14): (Location of the symbol related to previous error)

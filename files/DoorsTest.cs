@@ -43,6 +43,9 @@ public class DoorsRowTest
     {
         var row = new DoorsRow();
         row.MakePass();
-        Assert.All(doors.Open);
+        foreach(var d in row.Doors)
+        {
+            Assert.True(d.Open);
+        }
     }
 }
