@@ -48,4 +48,15 @@ public class DoorsRowTest
             Assert.True(!d.Closed);
         }
     }
+    
+    [Test]
+    public void VisitEverySecondDoor()
+    {
+        var row = new DoorsRow();
+        row.MakePass(2);
+        foreach(var d in row.Doors)
+        {
+            Assert.True(!d.Closed);
+        }
+    }
 }

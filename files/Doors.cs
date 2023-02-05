@@ -42,7 +42,7 @@ public class DoorsRow
         }   
     }
     
-    public void MakePass()
+    public void MakePass(int n)
     {
         for(var i=0;i<_doors.Length;i++){
             _doors[i].Toggle();
