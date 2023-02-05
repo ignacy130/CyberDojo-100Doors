@@ -42,7 +42,7 @@ public class DoorsRowTest
     public void VisitEveryDoor()
     {
         var row = new DoorsRow();
-        row.MakePass();
+        row.MakePass(1);
         foreach(var d in row.Doors)
         {
             Assert.True(!d.Closed);

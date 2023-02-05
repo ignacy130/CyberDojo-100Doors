@@ -1,2 +1,0 @@
-DoorsTest.cs(45,13): error CS1501: No overload for method `MakePass' takes `0' arguments
-Doors.cs(45,17): (Location of the symbol related to previous error)
