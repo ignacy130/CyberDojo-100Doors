@@ -1,1 +1,26 @@
-Compilation failed: 2 error(s), 0 warnings
+Runtime Environment
+   OS Version: Linux 4.14.291.218 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+=> DoorsRowTest.Solve_Test
+OCCOCCCCOCCCCCCOCCCCCCCCOCCCCCCCCCCOCCCCCCCCCCCCOCCCCCCCCCCCCCCOCCCCCCCCCCCCCCCCOCCCCCCCCCCCCCCCCCCO
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 4
+
+Test Run Summary
+  Overall result: Passed
+  Test Count: 8, Passed: 8, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2023-02-05 15:39:49Z
+    End time: 2023-02-05 15:39:50Z
+    Duration: 0.667 seconds
+
+Results (nunit3) saved as TestResult.xml

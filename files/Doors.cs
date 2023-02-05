@@ -57,7 +57,7 @@ public class DoorsRow
         
         var s = "";
         for(var i=0;i<_doors.Length;i++){
-            s+=doors[i].Closed ? "C" : "O";
+            s+=_doors[i].Closed ? "C" : "O";
         }
         return s;
     }
