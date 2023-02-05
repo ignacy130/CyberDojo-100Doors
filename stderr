@@ -1,0 +1,4 @@
+Doors.cs(32,30): error CS1061: Type `Doors[]' does not contain a definition for `Count' and no extension method `Count' of type `Doors[]' could be found. Are you missing `System.Linq' using directive?
+Doors.cs(3,14): (Location of the symbol related to previous error)
+Doors.cs(39,30): error CS1061: Type `Doors[]' does not contain a definition for `Count' and no extension method `Count' of type `Doors[]' could be found. Are you missing `System.Linq' using directive?
+Doors.cs(3,14): (Location of the symbol related to previous error)
