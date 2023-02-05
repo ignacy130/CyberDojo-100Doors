@@ -67,6 +67,24 @@ public class DoorsRowTest
     }
     
     [Test]
+    public void VisitEveryFifthDoor()
+    {
+        var row = new DoorsRow();
+        var n = 5;
+        row.MakePass(n);
+        
+        Assert.True(row.Doors[0].Closed);
+        Assert.True(row.Doors[1].Closed);
+        Assert.True(row.Doors[2].Closed);
+        Assert.True(row.Doors[3].Closed);
+        
+        Assert.True(!row.Doors[4].Closed);
+        Assert.True(!row.Doors[9].Closed);
+        Assert.True(!row.Doors[14].Closed);
+        
+    }
+    
+    [Test]
     public void VisitEveryHundrethDoor()
     {
         var row = new DoorsRow();
