@@ -39,14 +39,19 @@ public class DoorsRow
     public DoorsRow(){
         for(var i=0;i<_doors.Length;i++){
             _doors[i] = new Doors();
-        }   
+        }
     }
     
-    public void MakePass(int n)
+    public string MakePass(int n)
     {
         for(var i=n-1;i<_doors.Length;i+=n){
             _doors[i].Toggle();
-        } 
+        }
+        var s = "";
+        for(var i=0;i<_doors.Length;i++){
+            s+=_doors[i].Closed ? "C" : "O";
+        }
+        return s;
     }
     
     public string Solve()

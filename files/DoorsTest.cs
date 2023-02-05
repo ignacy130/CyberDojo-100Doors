@@ -55,7 +55,7 @@ public class DoorsRowTest
     {
         var row = new DoorsRow();
         var n = 2;
-        row.MakePass(n);
+        Console.WriteLine(row.MakePass(n));
         
         Assert.True(row.Doors[0].Closed);
         Assert.True(row.Doors[2].Closed);
@@ -72,7 +72,7 @@ public class DoorsRowTest
     {
         var row = new DoorsRow();
         var n = 5;
-        row.MakePass(n);
+        Console.WriteLine(row.MakePass(n));
         
         Assert.True(row.Doors[0].Closed);
         Assert.True(row.Doors[1].Closed);
@@ -90,7 +90,7 @@ public class DoorsRowTest
     {
         var row = new DoorsRow();
         var n = 100;
-        row.MakePass(n);
+        Console.WriteLine(row.MakePass(n));
         
         Assert.True(row.Doors[0].Closed);
         Assert.True(row.Doors[1].Closed);
