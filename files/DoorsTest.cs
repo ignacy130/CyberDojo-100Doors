@@ -60,9 +60,9 @@ public class DoorsRowTest
         Assert.True(row.Doors[2].Closed);
         Assert.True(row.Doors[4].Closed);
         
-        Assert.True(row.Doors[1].Closed);
-        Assert.True(row.Doors[3].Closed);
-        Assert.True(row.Doors[5].Closed);
+        Assert.True(!row.Doors[1].Closed);
+        Assert.True(!row.Doors[3].Closed);
+        Assert.True(!row.Doors[5].Closed);
         
     }
     

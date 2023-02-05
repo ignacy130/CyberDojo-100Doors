@@ -11,12 +11,7 @@ Errors, Failures and Warnings
 1) Failed : DoorsRowTest.VisitEveryHundrethDoor
   Expected: True
   But was:  False
-  at DoorsRowTest.VisitEveryHundrethDoor () [0x00000] in <706c27fd57d943a2aa4f431b0610c823>:0 
-
-2) Failed : DoorsRowTest.VisitEverySecondDoor
-  Expected: True
-  But was:  False
-  at DoorsRowTest.VisitEverySecondDoor () [0x00000] in <706c27fd57d943a2aa4f431b0610c823>:0 
+  at DoorsRowTest.VisitEveryHundrethDoor () [0x00000] in <578e1022ce3e45cd8f60334709d529de>:0 
 
 Run Settings
     DisposeRunners: True
@@ -28,10 +23,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 6, Passed: 4, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
-  Start time: 2023-02-05 15:32:32Z
-    End time: 2023-02-05 15:32:33Z
-    Duration: 0.643 seconds
+  Test Count: 6, Passed: 5, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2023-02-05 15:32:50Z
+    End time: 2023-02-05 15:32:51Z
+    Duration: 0.679 seconds
 
 Results (nunit3) saved as TestResult.xml
