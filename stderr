@@ -1,1 +1,2 @@
-Doors.cs(45,1): error CS1519: Unexpected symbol `}' in class, struct, or interface member declaration
+DoorsTest.cs(46,16): error CS0117: `NUnit.Framework.Assert' does not contain a definition for `All'
+/nunit/lib/net45/nunit.framework.dll (Location of the symbol related to previous error)
