@@ -1,0 +1,2 @@
+Doors.cs(60,16): error CS0103: The name `doors' does not exist in the current context
+DoorsTest.cs(106,9): error CS0103: The name `Console' does not exist in the current context

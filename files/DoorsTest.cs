@@ -97,4 +97,12 @@ public class DoorsRowTest
         
         Assert.True(!row.Doors[99].Closed);
     }
+    
+    [Test]
+    public void Solve_Test()
+    {
+        var row = new DoorsRow();
+        var s = row.Solve();
+        Console.WriteLine(s);
+    }
 }

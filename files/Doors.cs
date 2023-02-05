@@ -49,8 +49,16 @@ public class DoorsRow
         } 
     }
     
-    public void Solve()
+    public string Solve()
     {
+        for(var pass=1;pass<=100;pass++){
+            MakePass(pass);
+        }
         
+        var s = "";
+        for(var i=0;i<_doors.Length;i++){
+            s+=doors[i].Closed ? "C" : "O";
+        }
+        return s;
     }
 }
