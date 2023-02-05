@@ -6,13 +6,6 @@ Test Files
     ./RunTests.dll
 
 
-Errors, Failures and Warnings
-
-1) Failed : DoorsRowTest.VisitEverySecondDoor
-  Expected: True
-  But was:  False
-  at DoorsRowTest.VisitEverySecondDoor () [0x00000] in <aea1050b7ef24a51963db935d4f38aa3>:0 
-
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -22,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 4
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 5, Passed: 4, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2023-02-05 15:24:48Z
-    End time: 2023-02-05 15:24:49Z
-    Duration: 0.705 seconds
+  Overall result: Passed
+  Test Count: 5, Passed: 5, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2023-02-05 15:25:11Z
+    End time: 2023-02-05 15:25:11Z
+    Duration: 0.659 seconds
 
 Results (nunit3) saved as TestResult.xml

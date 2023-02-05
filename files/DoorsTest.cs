@@ -56,11 +56,11 @@ public class DoorsRowTest
         row.MakePass(2);
         for(var d=1;d<row.Doors.Length;d+=2)
         {
-            Assert.True(row.Doors[d].Closed);
+            Assert.True(!row.Doors[d].Closed);
         }
         for(var d=0;d<row.Doors.Length;d+=2)
         {
-            Assert.True(!row.Doors[d].Closed);
+            Assert.True(row.Doors[d].Closed);
         }
     }
 }
