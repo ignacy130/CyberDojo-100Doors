@@ -29,14 +29,14 @@ public class DoorsRow
     private Doors[] _doors = new Doors[100];
     
     public DoorsRow(){
-        for(var i=0;i<_doors.Count;i++){
+        for(var i=0;i<_doors.Length;i++){
             _doors[i] = new Doors();
         }   
     }
     
     public void MakePass()
     {
-        for(var i=0;i<_doors.Count;i++){
+        for(var i=0;i<_doors.Length;i++){
             _doors[i].Toggle();
         } 
     }
